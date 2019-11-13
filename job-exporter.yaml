@@ -8,7 +8,8 @@ spec:
       labels:
         app: batch-job
     spec:
-      # completions: 2
+      # completions: 5
+      # parallelism: 2
       restartPolicy: OnFailure
       containers:
       - name: main
